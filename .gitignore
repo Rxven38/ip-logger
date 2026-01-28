@@ -1,0 +1,31 @@
+# Node.js i pakiety
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Sekrety – NAJWAŻNIEJSZE
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+*.env.*
+
+# Pliki edytora i IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Systemowe śmieci Windows/macOS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Logi i tymczasowe pliki
+*.log
+logs/
+tmp/
+temp/
